@@ -18,7 +18,7 @@ class FiguraL
         self.b = b;
     }
     func CalcularPerimetro() -> Double {
-        return (self.alto*self.x)+((self.ancho-self.x)*self.y)
+        return self.alto+self.x+(self.alto-self.y)+(self.ancho-self.x)+self.y+self.ancho
     }
     func CalcularArea() -> Double{
         return (self.alto*self.x)+((self.ancho-self.x)*self.y)
